@@ -4,7 +4,7 @@ const bot = new Telegraf(env.token);
 
 
 bot.start(ctx => {
-    console.log(ctx.chat_id === ctx.upate.chat.id)
+    console.log(ctx.chat.id === ctx.update.message.from.id)
 })
 
 bot.startPolling()

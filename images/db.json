@@ -1,0 +1,18 @@
+{
+    "tasks": [
+        {
+            "id": 1,
+            "description": "Terminar regras de frete do projeto",
+            "date": "2020-05-25",
+            "conclusion": null,
+            "note": "Lembrar de verificar as queries de busca"
+        },
+        {
+            "id": 2,
+            "description": "Rever rotina de busca centauro",
+            "date": "2020-05-25",
+            "conclusion": null,
+            "note": "Não esquecer de rever a task delete"
+        }
+    ] 
+}
